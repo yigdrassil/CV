@@ -348,3 +348,7 @@ ul {
     display: inline;
   }
 }
+
+.hidden {
+  display:none;
+}
