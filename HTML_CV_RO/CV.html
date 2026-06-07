@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 
 <head>
   
@@ -35,9 +35,8 @@
         Cristian<br />Timofi
       </span>
       <div id="intro">
-        <p>Software developer with almost ten years of experience in various embedded projects, from automotive
-            to non-automotive safety critical systems.<br />
-        <p>Hands-on technical work across a wide range of technologies including C, Python, CAN, CANoe, Autosar, UDS, Bootloaders, and Electronics</p>
+        <p>Dezvoltator de software cu aproape zece ani de experiență în diverse proiecte embedded, de la sisteme automotive la sisteme critice non-automotive.<br />
+        <p>Experienta practica intr-o gama larga de tehnologii, precum C, Python, CAN, CANoe, Autosar, UDS, Bootloadere, si electronica</p>
       </div>
     </section>
 
@@ -54,35 +53,29 @@
       </a>
     </section>
 
-    <h1>Experience</h1>
+    <h1>Experienta</h1>
     <section id="experience" class="section-large">
-      <div class="experience-year">October 2021 – September 2024</div>
+      <div class="experience-year">Octombrie 2021 – Septembrie 2024</div>
       <div>
-        <span class="experience-position">Embedded Developer</span><br />
+        <span class="experience-position">Programator Embedded</span><br />
         <span class="experience-company">Alten</span><br />
-        I worked on flash-loader projects, mostly making sure the diagnostics requirements are being met.
-        This meant adding different modules to Tresos and configuring the XML and the C interfaces,
-        to ensure a flawless build, I also developed low level drivers for I2C and SPI communication,
-        to setup some chips before booting into the firmware. Adding different diagnostic messages and
-        configuring the diagnostics modules so that these will respect UDS ISOs and the customer requirements.
-        I made changes to the used toolchain as well as the necessary documentation for ease of use.
-        Last but not least i have worked on DOORS specifications to ensure industry standard traceability in
-        the specifications as well. 
+        La Alten am dezvoltat software si teste automate pentru VW si pentru Daimler.
+Programul este un bootloader, cu functionalitati de diagnoza prin CAN si cu gestionarea procesului de suprascriere al vechiului soft de pe microcontrollerul vizat. Flashuirea se face prin CAN bus. Programul trebuia sa asigure robustete, in asa fel incat, daca se intampla orice, in afara de avarierea fizica a controllerului, procesul de suprascriere sa se poata relua fara probleme. Pentru acestea am adaugat module in Tresos modificand configuratiile XML si interfetele in C. Am mai dezvoltat si doua drivere mici pentru I2C si SPI, pentru a comunica cu anumite integrate in care se faceau configuratii inainte sa porneasca sistemul propriu-zis.Scrierea si editarea documentatiei in Doors si documentatia codului folosind Doxygen.
         <ul>
           <li>
-            C Language
+            Limbaj C
           </li>
           <li>
-            Python (for automated testing)
+            Python (Pentru testare automata)
           </li>
           <li>
             Tresos
           </li>
           <li>
-            Lauterbach Debugger and software
+            Lauterbach Debugger si software
           </li>
           <li>
-            Vector CaNoe and Can Case
+            Vector CaNoe si Can Case
           </li>
           <li>
             IBM Doors
@@ -101,26 +94,27 @@
           </li>
         </ul>
       </div>
-      <div class="experience-year">June 2018 - December 2019</div>
+      <div class="experience-year">Iunie 2018 - Decembrie 2019</div>
       <div>
-        <span class="experience-position">Embedded Developer</span><br />
+        <span class="experience-position">Programator Embedded</span><br />
         <span class="experience-company">Bosch</span><br />
-        I worked on an e-bike-like project, also based on Autosar. For this i developed and/or changed different modules in C (diagnostics, com and some in-house algorithms for the motor control and sensing). I also made a test box for simulating different errors on the CAN bus, for diagnostics. I was tasked with configuring the CAN communication between the BMS (battery management system) and the other car modules for electric vehicles, for this I used the following:<br />
+        Am dezvoltat si modificat diferite module in C ( diagnoza, com, algoritmi pentru controlul motorului ), proiectul fiind bazat pe Autosar. Am facut si un test box fizic pentru simularea a diferite erori.<br />
+        Pe proiectul pentru Daimler avut ca task configurarea comunicatiei CAN in Autosar, intre BMS (Battery Management System) si diferite module ale masinii electrice, pentru acestea am folosit:
         <ul>
           <li>
-            C Language
+            Limbajul C
           </li>
           <li>
-            Python for testing
+            Python pentru testare
           </li>
           <li>
             Renesas Debugger
           </li>
           <li>
-            Oscilloscope and various other measuring instruments
+            Oscilloscop si alte instrumente de masura.
           </li>
           <li>
-            Vector CaNoe and Can Case
+            Vector CaNoe si Can Case
           </li>
           <li>
             IBM Doors
@@ -132,24 +126,24 @@
             Etas Inca
           </li>
           <li>
-            UDS Debugger and UAD Software
+            UDS Debugger si UAD Software
           </li>
           <li>
             CAN
           </li>
         </ul>
       </div>
-      <div class="experience-year">June 2017 – June 2018</div>
+      <div class="experience-year">Iunie 2017 – Iunie 2018</div>
       <div>
         <span class="experience-position">Embedded Developer</span><br />
         <span class="experience-company">Arrk</span><br />
-        I worked on projects commissioned by Hoerbiger, such as industrial valve controllers, using an RTOS for which i developed modules to ensure the CAN communication between different boards, and with the service laptop. Reconfigured the build chain as well as added C Mock functions to all the modules so that these can be unit tested without much effort, this also meant rethinking and changing the whole repository of the project. For this I used:<br />
+        In cadrul companiei, am participat la proiecte pentru Hoerbiger (controlarea valvelor industriale) si Airbus. MCU-urile folosite erau: Renesas RX63N si Atmel SAMD21. Programarea a fost facuta in limbajul C, iar moduele au fost testate folosind Unity si C-Mock. Codul sursa a fost versionat/intretinut folosind SVN.<br />
         <ul>
           <li>
-            C Language
+            Limbajul C
           </li>
           <li>
-            C-Mock and Unity (c unit testing framework)
+            C-Mock si Unity
           </li>
           <li>
             Renesas Debugger
@@ -158,7 +152,7 @@
             IAR Workbench
           </li>
           <li>
-            Ruby and Python for setting up the test env
+            Ruby si Python pt. C-Mock
           </li>
           <li>
             RTOS
@@ -167,24 +161,24 @@
             SVN
           </li>
           <li>
-            Atmel Studio and Atmel ICE Debugger
+            Atmel Studio si Atmel ICE Debugger
           </li>
           <li>
             CAN
           </li>
         </ul>
       </div>
-      <div class="experience-year">February 2015 – June 2017</div>
+      <div class="experience-year">Februarie 2015 – Iunie 2017</div>
       <div>
-        <span class="experience-position">Embedded Developer</span><br />
+        <span class="experience-position">Programator Embedded</span><br />
         <span class="experience-company">EBS / NTT Data</span><br />
-        I have worked in developing various modules for Volkswagen instrument clusters and for Continental. Maintenance, testing and porting of modules, written in C; Maintaining and adding information to the technical documentation, about the modules.<br />
+        Intretinerea, testarea si adaugarea de funcionalitati la diverse module pentru instrument clustere, pentru VW. Scrierea si improspatarea documentatiei tehnice in Doors pentru modulele in cauza. Tehnologii folosite:<br />
         <ul>
           <li>
-            C Language
+            Limbajul C
           </li>
           <li>
-            Vector CaNoe and Can Cases
+            Vector CaNoe si Can Cases
           </li>
           <li>
             Renesas Debugger
@@ -206,13 +200,12 @@
           </li>
         </ul>
       </div>
-      <div class="experience-year">2008–2012</div>
+      <div class="experience-year">Ianuarie 2014 – Februarie 2015</div>
       <div>
         <span class="experience-position">SAP Basis Admin</span><br />
         <span class="experience-company">EBS / NTT Data</span><br />
-        Installing SAP systems on Linux based distributions (SuSe, Redhat); Maintenance of the SAP systems already installed on the clients servers, new configurations, patch installations, debugging different problems with the transactions and the underlying software using SAP Notes and other resources.
-OS maintenance for both Linux (SuSe, Redhat) and Windows (2008, 2012) servers;
-Handling of 1st and 2nd level problems, regarding SAP and up to 3rd level problems in Linux; Bash scripting and Python were used for automation;<br />
+        Instalari sisteme SAP pe platforma Linux;
+Responsabil cu verificarea sistemelor SAP ale clientilor. Verificarea parametrilor de functionare ale sistemelor de operare bazate pe Linux (RedHat, SuSe) sau Windows. Corectarea erorilor aparute, de la 1st level la 3rd level. Aplicarea de patch-uri pentru sistemele SAP, sau pentru sistemele de operare ale clientilor.<br />
         <ul>
           <li>
             Suse Linux
@@ -221,196 +214,113 @@ Handling of 1st and 2nd level problems, regarding SAP and up to 3rd level proble
             SAP
           </li>
           <li>
-            Windows Server 2012
+            Windows Server (2008/2012)
           </li>
           <li>
             MS SQL
           </li>
           <li>
             Oracle
+          </li>          
+          <li>
+            Bash
+          </li>
+          <li>
+            Python
           </li>
         </ul>
       </div>
+      <div class="experience-year">Februarie 2013 – Decembrie 2013</div>
+      <div>
+        <span class="experience-position">Client IT Project Manager</span><br />
+        <span class="experience-company">InSites Consulting</span><br />
+        Programarea chestionarelor in Confirmit, crearea layout-urilor folosind CSS si HTML, adaugarea de noi functionalitati intr-o pagina sau imbunatatirea celor deja prezente, folosind JavaScript si jQuery. Limbajele folosite sunt: jQuery, JavaScript, jScript, HTML, CSS, sql.<br />
+      </div>
+      <div class="experience-year">Septembrie 2008 – Februarie 2013</div>
+      <div>
+        <span class="experience-position">HelpDesk Agent / Trainer</span><br />
+        <span class="experience-company">EBS / NTT Data</span><br />
+        Instruirea noilor angajati in diferitele programe folosite - atat programe dezvoltate in mod specific pentru firma Bosch, cat si pachete software mainstream. Pentru a indeplini aceasta sarcina a fost necesara crearea materialelor pe care le foloseam, cum ar fi manuale si caiete de exercitii.
+De asemenea, am participat la evaluarea periodica a angajatilor, procedura menita sa identifice necesitatea improspatarii informatiilor.
+Categoriile pentru care am creat materiale de training sunt:<br />
+        <ul>
+          <li>
+            Hardware: explicarea functionarii componentelor unui calculator si a interactiunii dintre acestea
+          </li>
+          <li>
+            Sisteme de operare, arhitectura teoretica si interactiunea cu HW-ul unui calculator, utilizarea de baza si depanarea (Win Xp, W7, Linux - Ubuntu)
+          </li>
+          <li>
+            Portalul intern - principii de functionare si de implementare (SAP NetWeaver)
+          </li>
+          <li>
+            Sistemele SAP: implementarea R/3 si interactiunile sistemelor prezente (intre ele si cu alte module -linii de productie, baze de date, etc.)
+          </li>
+      </div>
     </section>
 
-    <h1>Technology</h1>
-    <div class="section-large" id="technology-list">
-      <span class="technology-name">C# and ASP.NET</span>
-      <span class="technology-description">15 years of experience with application and service development in various
-        domains.</span>
-      <span class="technology-name">Kubernetes and Google Cloud</span>
-      <span class="technology-description">10 years of experience building scalable distributed systems, optimizing
-        reliability, costs and performance.</span>
-      <span class="technology-name">Python and Golang</span>
-      <span class="technology-description">Developing CI/CD scripts, tooling and Kubernetes controllers.</span>
-      <span class="technology-name">C++</span>
-      <span class="technology-description">3 years of developing modern, cross-platform code.</span>
-    </div>
-    <div id="technology-other">
-      Other: gRPC, F#, TypeScript, MS SQL, Postgre SQL, Entity Framework, Couchbase, Prometheus, Grafana, Azure, XAML,
-      WPF, WinRT, WCF, JNI, MS Mediaroom
-    </div>
-
-    <section class="two-sections">
-      <div>
+    <section class="hidden, two-sections">
+      <div class="hidden">
         <h1>Presenting</h1>
         <section class="section-small" id="presenting-list">
           <span class="presenting-type">Meetups and trainings</span>
           <span>
-            Presented at various meetups and internal workshops about a wide range of topics:
-            Modern C++ and mobile development, ASP.NET, C#, functional programming, gRPC, Kubernetes.
+            something something about meetups and trainings
           </span>
           <span class="presenting-type">Teaching</span>
           <span>
-            Led seminars at the Budapest University of Technology and Economics between 2010–2015 in courses about
-            software development and .NET.
+            something something about teaching ppl, dunno how to present that one yet
           </span>
         </section>
       </div>
-      <div>
+      <div class="hidden">
         <h1>Open source projects</h1>
         <section class="section-small" id="projects">
-          <span><a class="project-name" href="https://markvincze.github.io/sabledocs/">Sabledocs</a></span>
-          <span>Static documentation generator for Protobuf and gRPC contracts.</span>
-          <span><a class="project-name" href="https://markvincze.github.io/Stubbery">Stubbery</a></span>
-          <span>API stubbing library for .NET.</span>
-          <span><a class="project-name" href="https://blog.markvincze.com/projects#advent-of-code-solutions">AoC
-              solutions</a></span>
-          <span>My solutions for the Advent of Code puzzles.</span>
+          <span><a class="project-name" href="https://github.io/">Midi converter</a></span>
+          <span>Desctiption about my wonderful midi converter</span>
+          <span><a class="project-name" href="https://github.io/">Command line mp3 downloader</a></span>
+          <span>Just a little mp3 downloader in bash, used to learn the scripting language itself</span>
+          <span><a class="project-name" href="https://github.io/">Maybe i will make a CV maker interface</a></span>
+          <span>Maybe i will make a CV maker interface</span>
         </section>
       </div>
     </section>
 
     <section id="education" class="two-sections">
       <div>
-        <h1>Education</h1>
+        <h1>Educatie</h1>
         <section class="section-small">
-          <div class="education-year">2012</div>
+          <div class="education-year">2008</div>
           <div>
             <span class="education-detail">
-              MSc degree in Applied Computer Science
+              Informatica (An 3 inghetat)
             </span><br />
-            <span class="education-org">Budapest University of Technology and Economics</span><br />
+            <span class="education-org">Universitatea de Vest Timisoara</span><br />
           </div>
-          <div class="education-year">2010</div>
+          <div class="education-year">2006</div>
           <div>
             <span class="education-detail">
-              BSc degree in Computer Engineering
+              Diploma de tehnician
             </span><br />
-            <span class="education-org">Budapest University of Technology and Economics</span><br />
+            <span class="education-org">Colegiul Tehnic Iuliu Maniu</span><br />
           </div>
-          <div class="education-year">2011</div>
-          <div>
-            <span class="education-detail">72-515: Web Applications Development with MS .NET 4
-            </span><br />
-            <span class="education-org">MCP exam</span><br />
-          </div>
+          
         </section>
       </div>
       <div>
-        <h1>Language</h1>
+        <h1>Limbi vorbite</h1>
         <section class="section-small">
           <span class="language-name">English</span>
-          <span>Full professional proficiency</span>
-          <span class="language-name">Hungarian</span>
-          <span>Native proficiency</span>
+          <span>La nivel profesional</span>
+          <span class="language-name">Romana</span>
+          <span>Nativ</span>
+          <span class="language-name">Maghiara</span>
+          <span>Nativ</span>
+          <span class="language-name">Germana</span>
+          <span>Nivel B2</span>
         </section>
       </div>
     </section>
-
-    <section id="pageHeader">
-      <span id="pageHeaderName">
-        Mark Vincze
-      </span>
-      <div>
-        <!-- NOTE: These are kept on one line, otherwise the trailing whitespace causes the underlines to be a bit longer than needed. -->
-        <a href="https://blog.markvincze.com"><span class="fa fa-lg fa-laptop icon"></span><span>blog.markvincze.com</span></a>
-        <a href="mailto:hello@markvincze.com"><span class="fa fa-lg fa-envelope icon"></span><span>hello@markvincze.com</span></a>
-        <a href="https://linkedin.com/in/markvincze"><span class="fab fa-lg fa-linkedin icon"></span><span>linkedin.com/in/markvincze</span></a>
-        <a class="phoneNumber" href="tel:+36204053564"><span class="fa fa-lg fa-phone icon"></span><span>+36 20 405 3564</span></a>
-      </div>
-    </section>
-
-    <h1 id="workprojects">Project highlights</h1>
-    <h2 class=workproject-heading>2024–2025 Travix–Trip platform integration</h2>
-    <div class="workproject-intro">
-      Integrating the technical systems of Travix with the shareholder company Trip.com.
-    </div>
-    <div class="workproject-details">
-      <strong>Position</strong>
-      <div>Principal Developer @ Travix</div>
-      <strong>Technology</strong>
-      <div>ASP.NET, C#, Java, Kubernetes, OpenApi</div>
-      <strong>Role</strong>
-      <div>I was the delivery lead for a large-scale integration project connecting the technical systems of Travix with the shareholder company, Trip.com.<br />
-        This involved planning and designing the development work for the API integration of several systems, and creating a rollout strategy for a smooth transition to the new integrations.
-      </div>
-    </div>
-
-    <h2 class=workproject-heading>2022–2023 Post-Sale Shopping System</h2>
-    <div class="workproject-intro">
-      Creating a new greenfield e-commerce system, integrating with the existing systems of Travix.
-    </div>
-    <div class="workproject-details">
-      <strong>Position</strong>
-      <div>Principal Developer @ Travix</div>
-      <strong>Technology</strong>
-      <div>ASP.NET, C#, Kubernetes, gRPC</div>
-      <strong>Role</strong>
-      <div>
-        I designed the architecture of a greenfield e-commerce shopping system, consisting of multiple distributed ASP.NET services, and established the patterns and tooling for using gRPC in Kubernetes with ASP.NET, Java and Node.JS.
-      </div>
-    </div>
-
-    <h2 class=workproject-heading>2018–2020 Rule Engine modernization</h2>
-    <div class="workproject-intro">
-      Improve the technical implementation of an internal business rule engine system.
-    </div>
-    <div class="workproject-details">
-      <strong>Position</strong>
-      <div>Principal Developer @ Travix</div>
-      <strong>Technology</strong>
-      <div>ASP.NET, C#, Kubernetes, Envoy, Golang, Python</div>
-      <strong>Role</strong>
-      <div>
-         I was the technical lead for the modernization of an internal business rule engine. This involved taking a classic ASP.NET application running on hundreds of Windows VMs, porting it to ASP.NET Core and deploying it to Kubernetes using Linux and Docker, achieving significant cost savings.<br />
-         This involved creating a <a href="https://blog.markvincze.com/how-to-use-envoy-as-a-load-balancer-in-kubernetes/">routing proxy with Envoy</a> and creating a <a href="https://github.com/estafette/estafette-k8s-node-compactor">custom Kubernetes controller</a> to improve node utilization.
-      </div>
-    </div>
-
-    <h2 class=workproject-heading>2016–2018 Platform modernization</h2>
-    <div class="workproject-intro">
-      Evolving a monolithic classic ASP.NET application into a distributed system using ASP.NET Core and Kubernetes.
-    </div>
-    <div class="workproject-details">
-      <strong>Position</strong>
-      <div>Senior Developer @ Travix</div>
-      <strong>Technology</strong>
-      <div>ASP.NET, C#, Kubernetes, Google Cloud</div>
-      <strong>Role</strong>
-      <div>
-        Worked in the team evolving a monolithic ASP.NET application into a distributed system, thereby improving its performance and maintainability.<br />
-        I spearheaded in the organization the adoption of ASP.NET Core with Docker on Kubernetes, by carrying out investigations and creating proof of concepts, establishing tooling and practices, and organizing internal workshops.
-      </div>
-    </div>
-
-    <h2 class=workproject-heading>2011–2015 Lexa book reader engine and client development</h2>
-    <div class="workproject-intro">
-      Implementing the rendering engine and client applications for the e-reader application of Hungary's largest book store company.
-    </div>
-    <div class="workproject-details">
-      <strong>Position</strong>
-      <div>Senior Developer @ BME-AutSoft Ltd.</div>
-      <strong>Technology</strong>
-      <div>C++, Java, JNI, WPF, XAML, Windows Phone</div>
-      <strong>Role</strong>
-      <div>
-        I was the lead developer of the proprietary rendering engine calculating the text layout for all the e-book reader clients, implemented in modern, cross-platform C++ compiled for multiple technical stacks (Android, iOS, Windows Phone, Windows Desktop).<br />
-        I also led the development of the Windows Phone 7, Windows 8 and Windows desktop WPF e-reader clients.
-      </div>
-    </div>
-
-  </div>
 
   </div>
 </body>
